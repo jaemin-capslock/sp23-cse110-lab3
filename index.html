@@ -2,90 +2,96 @@
 <html lang="en">
   <head>
     <title>Min's Meeting Minutes</title>
-    <meta charset="UTF-8">
-    <link href="favicon.ico" rel="icon">
+    <meta charset="UTF-8" />
+    <link href="favicon.ico" rel="icon" />
+    <link
+      href="fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="mystyle.css" />
   </head>
   <body>
-      <h1>Min's Meeting Minutes</h1>
-      <h2>April <b>Week 2</b> weekly stand-up</h2>
-      <details>
-        <summary>We are toast!!</summary>
-      </details>
-      
+    <h1>Min's Meeting Minutes</h1>
+    <h2>April <b>Week 2</b> weekly stand-up</h2>
+    <details>
+      <summary>We are toast!!</summary>
+    </details>
 
-     
-      <h3>Apr 14</h3>
-      <section>Hi!</section>
-      <h3>Attendance List</h3>
-      <ul>
-          <li>Min</li>
-          <li>James</li>
-          <li>Amanda</li>
-          <li>Joe</li>
+    <h3>Apr 14</h3>
+    <section>Hi!</section>
+    <div class="flex-container">
+      <h3 class="flex-item">Attendance List</h3>
+      <ul class="flex-item">
+        <li class="important">Min</li>
+        <li>James</li>
+        <li>Amanda</li>
+        <li>Joe</li>
       </ul>
-      <nav>
-        <a href="https://chat.openai.com">The holy grail?</a>
-      </nav>
+    </div>
+    <nav>
+      <a href="https://chat.openai.com">The holy grail?</a>
+    </nav>
 
-      <h3><b>Agenda</b>: Who brought the prod down?!</h3>
+    <h3 id="agenda"><b>Agenda</b>: Who brought the prod down?!</h3>
 
-      <img src="agile-01-scaled.jpeg.webp" style="width:500px;height:300px;" alt="agile-diagram">
-      <section>Last meeting spillovers:</section>
-      <ul>
-          <li>Upgrading dependencies</li>
-          <li>Ditching AWS and migrating to <em>Azure</em> for fun</li>
-          <li>Rewriting every .js file into <a href="https://www.typescriptlang.org">Typescript</a> (woohoo!)</li>
-      </ul>
-      <div>
-
-      
+    <img
+      src="agile-01-scaled.jpeg.webp"
+      style="width: 500px; height: 300px"
+      alt="agile-diagram"
+    />
+    <div class="grid-container">
+    <section>Last meeting spillovers:</section>
+    <ul>
+      <li>Upgrading dependencies</li>
+      <li>Ditching AWS and migrating to <em>Azure</em> for fun</li>
+      <li>
+        Rewriting every .js file into
+        <a href="https://www.typescriptlang.org">Typescript</a> (woohoo!)
+      </li>
+    </ul>
+    </div>
+    <div class="grid-container">
       <section>Current meeting agendas</section>
       <ol>
-          <li>Forget about above - <span></span><strong>PROD IS DOWN!!!</strong></li>
-          <li>Debug task force</li>
-          <li>Explain this to non-tech folks</li>
+        <li>
+          Forget about above - <span></span><strong>PROD IS DOWN!!!</strong>
+        </li>
+        <li>Debug task force</li>
+        <li>Explain this to non-tech folks</li>
       </ol>
-      </div>
-      <br>
-      Min said Prod is down because our new intern, Joe, was running SQL tutorials on our live DB!
+    </div>
+    <br />
+    Min said Prod is down because our new intern, Joe, was running SQL tutorials
+    on our live DB!
 
-      <br>
+    <br />
 
-      For fun:
+    For fun:
 
-      <video src="video2.mp4">
+    <video src="video2.mp4"></video>
+    <audio src="cse110audio.m4a">Audio here</audio>
 
-      </video>
-      <audio src="cse110audio.m4a"> Audio here
+    <br />
 
-      </audio>
+    <form>
+      <fieldset>
+        <button class="cutebutton">This is a cute button!</button>
+        <input type="text" name="yourname" />
+        <input type="checkbox" />
 
-      <br>
+        <input type="date" />
+        <input type="radio" />
+        <datalist>
+          <option value="Chocolate">Chocolate</option>
+        </datalist>
+      </fieldset>
+      <br />
 
-      <form>
-        <fieldset>
-          <button> This is a cute button!</button>
-          <input type="text" name="yourname">
-          <input type="checkbox">
-
-          <input type="date">
-          <input type="radio">
-          <datalist>
-            <option value="Chocolate"> Chocolate </option>
-          </datalist>
-        </fieldset>
-        <br>
-
-        <textarea>Enter text here</textarea>
-        <select>
-          <option value="SWE">SWE</option>
-          <option value="DevOps">DevOps</option>
-        </select>
-        
-
-
-
-      </form>
-
+      <textarea>Enter text here</textarea>
+      <select>
+        <option value="SWE">SWE</option>
+        <option value="DevOps">DevOps</option>
+      </select>
+    </form>
   </body>
 </html>
